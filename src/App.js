@@ -5,9 +5,6 @@ import { Routes, Route } from "react-router-dom";
 import CountL from "./countries.json"
 import CountriesList from './components/CountriesList';
 import { useState,useEffect } from "react";          
-function Ntf() {
-  return <>Not Found</>
-}
 function App() {
   const [cotries,setcotries]=useState()
 
